@@ -1,1 +1,5 @@
-print("start")
+print("help")
+manganaam = input("naam van de manga?")
+thema = input("thema?")
+genre = input("genre?")
+print("naam:" + manganaam + " thema:" + thema + " genre:" + genre)
