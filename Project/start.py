@@ -1,7 +1,7 @@
 def berekenprocent(a,b,c):
     totaal = a+b+c
-    andernaam = round((a/totaal)*100)
-    print(andernaam,"%")
+    round((a/totaal)*100)
+    return(round((a/totaal)*100))
 
 p = 100;
 manganaam = input("naam van de manga?")
@@ -15,6 +15,6 @@ karakaters = int(input())
 print("verhaal?")
 verhaal = int(input())
 print("----------------------------------------------------------------------------------------------------------------------")
-print("dialoog :" , format(berekenprocent(dialoog,karakaters,verhaal)))
-berekenprocent(karakaters,dialoog,verhaal)
-berekenprocent(verhaal,karakaters,dialoog)
+print("dialoog :" , berekenprocent(dialoog,karakaters,verhaal),"%")
+print("karakaters :" , berekenprocent(karakaters,dialoog,verhaal),"%")
+print("verhaal :" , berekenprocent(verhaal,karakaters,dialoog),"%")
