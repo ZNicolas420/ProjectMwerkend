@@ -17,7 +17,8 @@ class Oneshotmanga:
         print("verhaal    :" , self.dialoog ,"%", self.karakaters ,"%", self.verhaal,"%")
         print("tekeningen :" , self.achtergronden ,"%", self.persoonage ,"%", self.effecten,"%")
 
-o1 = Oneshotmanga("tuto", "avontuur", "zombie",50,50,50,50,50,50)
+#manga maken/save info
+#o1 = Oneshotmanga("tuto", "avontuur", "zombie",50,50,50,50,50,50)
 
-
-o1.introduce_self()
+#manga gegevens opvragen
+#o1.introduce_self()

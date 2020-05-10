@@ -1,3 +1,6 @@
+from oneshotmanga import Oneshotmanga
+
+
 def berekenprocent(a,b,c):
     totaal = a+b+c
     round((a/totaal)*100)
