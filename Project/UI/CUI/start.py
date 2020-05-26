@@ -1,7 +1,6 @@
 from oneshotmanga import Oneshotmanga
 
 
-
 print("1-vulin 2-autovulin")
 i = int(input())
 if (i==1):
@@ -19,7 +18,7 @@ if (i==1):
   achtergronden = int(input())
   print("persoonage-?")
   persoonage = int(input())
-
+  print("effecten?")
   effecten = int(input())
   print("----------------------------------------------------------------------------------------------------------------------")
   o1 = Oneshotmanga(manganaam,thema,genre,dialoog,karakaters,verhaal,achtergronden,persoonage,effecten)
