@@ -1,4 +1,4 @@
-class Thema:
+class Oneshotmanga:
     def __init__(self,manganaam,thema,genre,dialoog, karakaters,verhaal,achtergronden,persoonage,effecten):
         self.manganaam = manganaam
         self.thema = thema
