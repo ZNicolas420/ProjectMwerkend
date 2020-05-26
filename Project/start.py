@@ -19,7 +19,7 @@ if (i==1):
   achtergronden = int(input())
   print("persoonage-?")
   persoonage = int(input())
-  print("effecten?")
+
   effecten = int(input())
   print("----------------------------------------------------------------------------------------------------------------------")
   o1 = Oneshotmanga(manganaam,thema,genre,dialoog,karakaters,verhaal,achtergronden,persoonage,effecten)
