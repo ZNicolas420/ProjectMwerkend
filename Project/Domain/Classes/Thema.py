@@ -22,6 +22,9 @@ def berekenprocent(a,b,c):
     round((a/totaal)*100)
     return(round((a/totaal)*100))
 
+
+
+
 #manga maken/save info
 #o1 = Oneshotmanga("tuto", "avontuur", "zombie",50,50,50,50,50,50)
 
